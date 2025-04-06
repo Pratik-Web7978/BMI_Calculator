@@ -21,7 +21,7 @@ function App() {
 
       // Determine message
       if (bmiCalc < 18.5) {
-        setMessage('You are underweight');
+        setMessage('You are underweight!');
       } else if (bmiCalc >= 18.5 && bmiCalc < 25) {
         setMessage('You are a healthy weight');
       } else {
