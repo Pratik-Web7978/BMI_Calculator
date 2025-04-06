@@ -45,7 +45,7 @@ function App() {
               type="number"
               value={weight}
               onChange={(e) => setWeight(e.target.value)}
-              placeholder="Enter your weight"
+              placeholder="Enter your weight:-"
             />
           </div>
 
