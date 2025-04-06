@@ -25,7 +25,7 @@ function App() {
       } else if (bmiCalc >= 18.5 && bmiCalc < 25) {
         setMessage('You are a healthy weight!');
       } else {
-        setMessage('You are overweight');
+        setMessage('You are overweight!');
       }
     }
   };
